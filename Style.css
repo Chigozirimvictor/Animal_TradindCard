@@ -38,36 +38,36 @@ body {
 }
 
 .card-image {
-    background-image: url(./image/red-panda.jpg);
+    background-image: url('./image/red-panda.jpg');
     height: 300px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-clip: border-box;
+    transition: all 0.5 ease-in-out;
 }
 
 .card-image:hover {
     animation-name: changeImg;
+    animation-delay: 0s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    /* animation-timing-function: ; */
-    
+    animation-direction: alternate;
     
 }
 
 @keyframes changeImg {
-    0% {
+    /* 0% {
 
         background-image: url(./image/red-panda.jpg)
-    }
+    } */
 
-    33% {
+    22% {
         background-image: url(./image/red2.jpg
 );
     }
 
-    66% {
+    50% {
         background-image: url(./image/red4.jpg);
     } 
 
