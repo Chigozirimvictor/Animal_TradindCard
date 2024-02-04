@@ -41,7 +41,6 @@ body {
     background-image: url('./image/red-panda.jpg');
     height: 300px;
     width: 100%;
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     transition: all 0.5 ease-in-out;
@@ -57,10 +56,10 @@ body {
 }
 
 @keyframes changeImg {
-    /* 0% {
+     0% {
 
         background-image: url(./image/red-panda.jpg)
-    } */
+    } 
 
     22% {
         background-image: url(./image/red2.jpg
